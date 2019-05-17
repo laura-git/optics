@@ -76,32 +76,33 @@ nav {
 
 }
 
-.mainicons, .maininfo {
+.maininfo, .mainicons {
     justify-content: center;
     margin: 3rem 0;
     display: flex;
 
-
 }
 
-.exams p, .fitting p, .delivery p {
-
-}
-
-.exams, .fitting, .delivery {
-     height: 8rem;
+.icons {
+    position: relative;
+    height: 8rem;
+    margin: 3rem;
     text-align: center;
-    margin: 0 3rem;
+    align-items: center;
+}
 
- }
+.icons span {
+    position: absolute;
+}
 
-.exams img {
+.exams {
     width: 3.5rem;
 }
 
-.fitting img, .delivery img {
-    width: 5rem
+.fitdel {
+    width: 5rem;
 }
+
 
 
 
