@@ -84,15 +84,17 @@ nav {
 }
 
 .icons {
-    position: relative;
-    height: 8rem;
-    margin: 3rem;
+   display: flex;
+    flex-direction: column;
+    width: 5rem;
     text-align: center;
     align-items: center;
+    margin: 3rem;
+    justify-content: space-between;
 }
 
-.icons span {
-    position: absolute;
+.icons div {
+    padding: 1rem;
 }
 
 .exams {
