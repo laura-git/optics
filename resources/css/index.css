@@ -1,0 +1,126 @@
+html {
+    font-size: 18px;
+    line-height: 1.4rem;
+    font-family: Helvetica;
+}
+
+nav {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
+    background-size: cover;
+    height: 30rem;
+
+
+}
+
+.navbar, .maintitlecontainer, .maincontainer, footer {
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.navbar, .navbar ul, .mainicons, .maininfo, main {
+    display: flex;
+
+}
+
+.navbar,.navbar ul,  {
+    justify-content: space-between;
+}
+
+
+.navbar {
+    background-color: cadetblue;
+    top: 1rem;
+    color: white;
+
+}
+
+.navbar img, footer img {
+    height: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+
+}
+
+.navbar img, .navbar p {
+    align-items: center;
+}
+
+
+.navbar li {
+    display: flex;
+    padding: 1rem 2rem;
+}
+
+.logo-white, .logo-black {
+    display: flex;
+    align-items: center;
+}
+
+.maintitlecontainer {
+    top: 10rem;
+    right: -2rem;
+   display: flex;
+    justify-content: flex-end;
+
+}
+.maintitle h1, .maininfo h2 {
+    font-weight: bold;
+}
+
+.maintitle h1 {
+    font-size: 2rem;
+    padding: 1.5rem 5rem;
+    background-color: white;
+    color: black;
+
+}
+
+.mainicons, .maininfo {
+    justify-content: center;
+    margin: 3rem 0;
+    display: flex;
+
+
+}
+
+.exams p, .fitting p, .delivery p {
+
+}
+
+.exams, .fitting, .delivery {
+     height: 8rem;
+    text-align: center;
+    margin: 0 3rem;
+
+ }
+
+.exams img {
+    width: 3.5rem;
+}
+
+.fitting img, .delivery img {
+    width: 5rem
+}
+
+
+
+
+.philosophy, .appointment {
+    width: 35%;
+    margin-left: 5%;
+    margin-bottom: 5rem;
+}
+
+.philosophy h2, .appointment h2 {
+    background-color: cadetblue;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1.25rem;
+    color: white;
+    width:10rem;
+}
+
+.footercontainer {
+    background-color: azure;
+    padding: 4rem
+}
